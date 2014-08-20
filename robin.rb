@@ -37,15 +37,10 @@ class Board
       end
     end
 
-    # def number(row, col)
-    # 	row*3 + col + 1
-    # end
-
 	private
 
 	def default_grid
 		Array.new(3) {Array.new(3) {Cell.new}}
-		# Matrix.build(3){Cell.new} 
 	end
 
 	def draw?
